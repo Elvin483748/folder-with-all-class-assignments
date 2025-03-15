@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<table>
+<tr>
+    <td rowspan="2">State of Health</td>
+    <td colspan="2">Fasting Value</td>
+    <td>After Eating</td>
+    <tr>
+        <td>Minimum</td>
+        <td>Maxsimum</td>
+        <td>2 hours after eating</td>
+  
+   
+
+<tr>
+    <td>Healthy</td>
+ 
+        <td>70</td>
+        <td>100</td>
+        <td>Less than 140</td>
+    <tr>
+    <td>Pre Diabetes</td>
+    <td>101</td>
+    <td>126</td>
+    <td>140 to 200</td>
+</tr>
+<tr>
+    <td>Diabetes</td>
+    <td>More than 126</td>
+    <td>N/A</td>
+    <td>More than 200</td>
+</tr>
+
+</table>
+
+<h1 style="text-align: center;">Student Registartion Form </h1>
+<form>
+<label for="">Student Name</label>
+<br>
+<input style="width: 600px; height: 30px;" type="text"><br>
+<label for="">Mobile No</label><br>
+<input style="width: 250px;" type="tel"> 
+<label style="margin-left: 30px;" for="Email Id">Email Id</label> 
+<input style="width: 250px;"   type="email"><br>
+
+<label for="">Father Name</label><br>
+
+<input style="width: 250px;"  type="text"> 
+<label style="margin-left: 30px;" for="">Mother name</label>
+<input style="width: 250px;"  type="text"> <br>
+<label for="">Select Country</label> <br>
+<select style="width: 250px;"  name="country" id="">
+    <option value="">Select..</option>
+    <option value="">Azerbaijan</option>
+    <option value="">English</option>
+    <option value="">Spanish</option>
+    <option value="">Russia</option>
+</select>
+<label style="margin-left: 40px;" for="">Date of Birth</label>
+<input style="width: 250px;"  type="datetime-local"> <br>
+
+<label for="">Gender</label> <br>
+<input type="radio"name='gender'>Male
+<input type="radio"name='gender'>Female
+<label style="margin-left: 50px;" for="student-photo">Student Photo</label>
+
+
+<input class="border" type="file" name="no file"> <br>
+<br>
+<br>
+<label for="">Select Branch</label> <br>
+<input type="checkbox">CSE 
+<input type="checkbox">IT 
+<input type="checkbox">ECE 
+<input type="checkbox">Civil 
+ <br>
+ <br>
+<label for="">Adress</label><br>
+<textarea cols="50" rows="8"></textarea>
+<br>
+<button style="background-color: red; width: 850px; border: none; height: 30px; border-radius: 3px; margin-top: 30px; color: white; ">Submit</button>
+</form>
+
+</body>
+</html>

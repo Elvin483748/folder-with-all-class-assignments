@@ -1,0 +1,16 @@
+table tr td{
+    border: 1px solid blue;
+}
+table{
+    border-collapse: collapse;
+    text-align: center;
+    height: 200px;
+    width: 550px;
+}
+.border{
+    border: 1px solid gray;
+ height: 23px;
+ padding-top: 8px;
+ padding-left: 8px;
+ border-radius: 3px;
+}
