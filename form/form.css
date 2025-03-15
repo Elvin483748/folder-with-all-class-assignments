@@ -1,0 +1,32 @@
+.title{
+    color: rgb(24, 24, 194);
+    margin-left: 200px;
+    margin-bottom: 50px;
+  
+}
+hr{
+   border: 1px solid white;
+   margin-left: 160px;
+}
+body{
+    background-color: cadetblue ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    margin-top: 70px;
+    margin-left: 250px;
+}
+form{
+    margin-left: 250px;
+}
+input{
+    width: 400px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 7px;
+}
+label{
+    color: rgb(39, 38, 38);
+}
+
